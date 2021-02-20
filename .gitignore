@@ -60,5 +60,7 @@ crashlytics-build.properties
 
 #ignore vs code
 *.vscode
+*.vsconfig
+
 
 

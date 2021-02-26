@@ -44,6 +44,20 @@ namespace Schizohaptic
            // hideAllActuators("L");
         }
 
+        public void restartValues()
+        {
+            portStringIzquierda = "";
+            portStringDerecha = "";
+
+            manoActual = "R";
+            timePerPulse = 1;
+            timeRemaining = 1;
+
+            actuadorActual = 0;
+            iniciarPrueba = false;
+            detectar = false;
+    }
+
         public void DetectHands()
         {
             detectar = false;
@@ -52,14 +66,28 @@ namespace Schizohaptic
             hideAllActuators("L");
             if (portStringIzquierda == "" || portStringDerecha == "")
             {
-                if (this.hilo == null || !this.hilo.IsAlive)
+                this.restartValues();
+                if (this.hilo != null)
                 {
-                    detectar = true;
-                    this.hilo = new Thread(detectDevicesInPort);
-                    this.hilo.Start();
-                    this.hilo2 = new Thread(sendOSignal);
-                    hilo2.Start();
+                    if (this.hilo.IsAlive)
+                    {
+                        this.hilo.Abort();
+                    }
+                    this.hilo = null;
                 }
+                if (this.hilo2 != null)
+                {
+                    if (this.hilo2.IsAlive)
+                    {
+                        this.hilo2.Abort();
+                    }
+                    this.hilo2 = null;
+                }
+                detectar = true;
+                this.hilo = new Thread(detectDevicesInPort);
+                this.hilo.Start();
+                this.hilo2 = new Thread(sendOSignal);
+                hilo2.Start();
             }
         }
 
@@ -311,6 +339,10 @@ namespace Schizohaptic
                                 if (manoDerecha && manoIzquierda)
                                 {
                                     detectar = false;
+
+                                    GlobalControl.Instance.database.portDerecha = this.portStringDerecha;
+                                    GlobalControl.Instance.database.portIzquierda = this.portStringIzquierda;
+                                    GlobalControl.Instance.SaveData();
                                     Debug.Log("Fin de la deteccion");
                                 }
                             }

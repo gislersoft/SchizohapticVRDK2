@@ -22,6 +22,8 @@ namespace Schizohaptic
     [Serializable]
     public class BaseDatos
     {
+        public string portDerecha;
+        public string portIzquierda;
         public ArrayList terapias;
         public BaseDatos()
         {
@@ -64,12 +66,14 @@ namespace Schizohaptic
             formatter.Serialize(saveFile, database);
 
             saveFile.Close();
+            Debug.Log("Database saved");
         }
 
         public void LoadData()
         {
-            if (File.Exists(dataFile))
+            if (File.Exists(dataFolder + dataFile))
             {
+                Debug.Log("Cargando archivo "+ dataFolder + dataFile + "...");
                 BinaryFormatter formatter = new BinaryFormatter();
                 FileStream saveFile = File.Open(dataFolder+dataFile, FileMode.Open);
 
@@ -77,8 +81,11 @@ namespace Schizohaptic
                 saveFile.Close();
             } else
             {
+                Debug.Log("No hay archivo de BD creando nueva...");
                 database = new BaseDatos();
                 database.terapias = new ArrayList();
+                database.portDerecha = "";
+                database.portIzquierda = "";
             }
         }
 

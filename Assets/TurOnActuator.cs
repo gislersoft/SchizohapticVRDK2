@@ -13,7 +13,7 @@ public class TurOnActuator : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        hapticListener = GameObject.Find("HapticListener").GetComponent<HapticGlovesListener>();
+        hapticListener = GameObject.Find("HapticGlovesListener").GetComponent<HapticGlovesListener>();
     }
 
     // Update is called once per frame

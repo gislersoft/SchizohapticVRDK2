@@ -8,12 +8,12 @@ public class TurOnActuator : MonoBehaviour
     private bool discontino = false;
     private bool touch = false;
 
-    private ScriptPruebaGuantes hapticListener;
+    private HapticGlovesListener hapticListener;
 
     // Use this for initialization
     void Start()
     {
-        hapticListener = GameObject.Find("HapticListener").GetComponent<ScriptPruebaGuantes>();
+        hapticListener = GameObject.Find("HapticListener").GetComponent<HapticGlovesListener>();
     }
 
     // Update is called once per frame

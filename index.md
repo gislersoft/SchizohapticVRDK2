@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## Schizohaptic VR
 
-You can use the [editor on GitHub](https://github.com/gislersoft/SchizohapticVRDK2/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+It is a research application in virtual reality therapies for the treatment and study of schizophrenia. The application has been developed in conjunction with the Universidad del Valle and the Hospital Departamental Psiquiátrico Universitario del Valle (HDPUV). Developed by the Multimedia and Computer Vision research group (MVC) with the support of Dr Juan Carlos Rivas Nieto.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Haptic Technology
 
-### Markdown
+Haptic technology refers to the set of technological interfaces that interact with humans through the sense of touch. It is an emerging technology since the 90s that is promisingly evolving in some fields of application. One type of haptic technology used in this project is the virtual simulation of touch using miniature motors (actuators) that are distributed in a glove to simulate touch within a virtual environment.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Virtual Reality Therapy in Schizophrenia
 
-```markdown
-Syntax highlighted code block
+Studies have shown that VR is a useful tool to assess and treat evaluated patients with schizophrenia through positive and negative signs (Brito, H., & Vicente, B. (2018). Virtual reality and its applications in mental disorders: a review)
 
-# Header 1
-## Header 2
-### Header 3
+### Virtual Reality Therapy with Haptic Technology in Schizophrenia
 
-- Bulleted
-- List
+This is the main focus of this application-study, since it is a field in virtual reality therapy that has not been fully explored.
 
-1. Numbered
-2. List
+## Developed by:
 
-**Bold** and _Italic_ and `Code` text
+- Gisler Garcés Vargas, Eng
 
-[Link](url) and ![Image](src)
-```
+## Advisors:
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+- Maria Patricia Trujillo, Phd
+- Juan Carlos Rivas Nieto, Md, Phd
 
-### Jekyll Themes
+## Consultants:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gislersoft/SchizohapticVRDK2/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Lina Zapata, Md
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.

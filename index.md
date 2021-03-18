@@ -3,11 +3,7 @@
 It is a research application in virtual reality therapies for the treatment and study of schizophrenia. The application has been developed in conjunction with the Universidad del Valle and the Hospital Departamental Psiquiátrico Universitario del Valle (HDPUV). Developed by the Multimedia and Computer Vision research group (MVC) with the support of Dr Juan Carlos Rivas Nieto.
 
 <p float="left">
-<img src="imagen1.png?raw=true" data-canonical-src="imagen1.png?raw=true" width="400"/>
 <img src="imagen2.png?raw=true" data-canonical-src="imagen2.png?raw=true" width="400"/>
-<img src="imagen3.png?raw=true" data-canonical-src="imagen3.png?raw=true" width="400"/>
-<img src="imagen4.png?raw=true" data-canonical-src="imagen4.png?raw=true" width="400"/>
-<img src="imagen5.png?raw=true" data-canonical-src="imagen5.png?raw=true" width="400"/>
 <img src="imagen6.jpg?raw=true" data-canonical-src="imagen6.jpg?raw=true" width="400"/>
 </p>
 
@@ -40,6 +36,15 @@ Studies have shown that VR is a useful tool to assess and treat evaluated patien
 ### Virtual Reality Therapy with Haptic Technology in Schizophrenia
 
 This is the main focus of this application-study, since it is a field in virtual reality therapy that has not been fully explored.
+
+## Screenshots
+
+<p float="left">
+<img src="imagen3.png?raw=true" data-canonical-src="imagen3.png?raw=true" width="400"/>
+<img src="imagen4.png?raw=true" data-canonical-src="imagen4.png?raw=true" width="400"/>
+<img src="imagen5.png?raw=true" data-canonical-src="imagen5.png?raw=true" width="400"/>
+<img src="imagen1.png?raw=true" data-canonical-src="imagen1.png?raw=true" width="400"/>
+</p>
 
 ## Developed by:
 

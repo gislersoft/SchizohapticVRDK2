@@ -4,10 +4,11 @@ It is a research application in virtual reality therapies for the treatment and 
 
 <p float="left">
 <img src="imagen1.png?raw=true" data-canonical-src="imagen1.png?raw=true" width="400"/>
-<img src="imagen2.png?raw=true" data-canonical-src="imagen1.png?raw=true" width="400"/>
-<img src="imagen3.png?raw=true" data-canonical-src="imagen1.png?raw=true" width="400"/>
-<img src="imagen4.png?raw=true" data-canonical-src="imagen1.png?raw=true" width="400"/>
-<img src="imagen5.png?raw=true" data-canonical-src="imagen1.png?raw=true" width="400"/>
+<img src="imagen2.png?raw=true" data-canonical-src="imagen2.png?raw=true" width="400"/>
+<img src="imagen3.png?raw=true" data-canonical-src="imagen3.png?raw=true" width="400"/>
+<img src="imagen4.png?raw=true" data-canonical-src="imagen4.png?raw=true" width="400"/>
+<img src="imagen5.png?raw=true" data-canonical-src="imagen5.png?raw=true" width="400"/>
+<img src="imagen6.jpg?raw=true" data-canonical-src="imagen6.jpg?raw=true" width="400"/>
 </p>
 
 ## Requirements

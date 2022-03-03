@@ -1,0 +1,116 @@
+fileFormatVersion: 2
+guid: 96a7412d9c44b1343b1db488b508b6ac
+timeCreated: 1615425575
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bip01_Footsteps
+    100004: Bone_001
+    100006: Bone_003
+    100008: Bone_005
+    100010: Bone_007
+    100012: Bone_009
+    100014: Bone_010
+    100016: Bone_012
+    100018: Dummy03
+    100020: Dummy04
+    100022: FootL
+    100024: FootR
+    100026: HandL
+    100028: HandR
+    100030: Head
+    100032: IK_Chain02
+    100034: //RootNode
+    100036: objpolySurface138
+    100038: Spine
+    400000: Armature
+    400002: Bip01_Footsteps
+    400004: Bone_001
+    400006: Bone_003
+    400008: Bone_005
+    400010: Bone_007
+    400012: Bone_009
+    400014: Bone_010
+    400016: Bone_012
+    400018: Dummy03
+    400020: Dummy04
+    400022: FootL
+    400024: FootR
+    400026: HandL
+    400028: HandR
+    400030: Head
+    400032: IK_Chain02
+    400034: //RootNode
+    400036: objpolySurface138
+    400038: Spine
+    4300000: objpolySurface138
+    7400000: Default Take
+    7400002: ArmatureAction
+    9500000: //RootNode
+    13700000: objpolySurface138
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

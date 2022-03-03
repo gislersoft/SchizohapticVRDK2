@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: 8f586d202eaf00441bb25f1ef125d9b6
+timeCreated: 1614135552
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: mixamorig_Head
+    100004: mixamorig_Hips
+    100006: mixamorig_LeftArm
+    100008: mixamorig_LeftFoot
+    100010: mixamorig_LeftForeArm
+    100012: mixamorig_LeftHand
+    100014: mixamorig_LeftLeg
+    100016: mixamorig_LeftShoulder
+    100018: mixamorig_LeftUpLeg
+    100020: mixamorig_Neck
+    100022: mixamorig_RightArm
+    100024: mixamorig_RightFoot
+    100026: mixamorig_RightForeArm
+    100028: mixamorig_RightHand
+    100030: mixamorig_RightLeg
+    100032: mixamorig_RightShoulder
+    100034: mixamorig_RightUpLeg
+    100036: mixamorig_Spine
+    100038: mixamorig_Spine1
+    100040: mixamorig_Spine2
+    100042: //RootNode
+    100044: rp_carla_rigged_001
+    400000: Armature
+    400002: mixamorig_Head
+    400004: mixamorig_Hips
+    400006: mixamorig_LeftArm
+    400008: mixamorig_LeftFoot
+    400010: mixamorig_LeftForeArm
+    400012: mixamorig_LeftHand
+    400014: mixamorig_LeftLeg
+    400016: mixamorig_LeftShoulder
+    400018: mixamorig_LeftUpLeg
+    400020: mixamorig_Neck
+    400022: mixamorig_RightArm
+    400024: mixamorig_RightFoot
+    400026: mixamorig_RightForeArm
+    400028: mixamorig_RightHand
+    400030: mixamorig_RightLeg
+    400032: mixamorig_RightShoulder
+    400034: mixamorig_RightUpLeg
+    400036: mixamorig_Spine
+    400038: mixamorig_Spine1
+    400040: mixamorig_Spine2
+    400042: //RootNode
+    400044: rp_carla_rigged_001
+    7400000: Default Take
+    7400002: quieto
+    7400004: running
+    7400006: tpose
+    7400008: walk
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
